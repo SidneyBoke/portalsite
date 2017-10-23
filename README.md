@@ -17,3 +17,6 @@ Portal Web
  
  #spring AOP or AspectJ
 AspectJ需要额外的aspectjweaver.jar包
+
+#viewResolver
+jsp和freemarker共同使用，参考http://mxdba.iteye.com/blog/658077

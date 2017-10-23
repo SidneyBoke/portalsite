@@ -8,7 +8,7 @@ import java.util.List;
  * Created by jiangyijie on 2017/9/28.
  */
 public interface UserService {
-    public boolean updateUser(User user);
-    public User getUserById(int userId);
-    public List<User> getAllUsers();
+    boolean updateUser(User user);
+    User getUserById(int userId);
+    List<User> getAllUsers();
 }
