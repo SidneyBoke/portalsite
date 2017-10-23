@@ -12,7 +12,9 @@
 </head>
 <body>
 <p>test jsp page</p>
-${user.name}
+姓名：${user.name}<br/>
+年龄：${user.age}<br/>
+部门：${user.dpId}<br/>
 ${msg}
 </body>
 </html>

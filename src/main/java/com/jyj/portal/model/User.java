@@ -8,6 +8,8 @@ public class User {
     private String name;
     private String sex;
     private int age;
+    private int dpId;
+    private int authId;
 
     public int getId() {
         return id;
@@ -39,5 +41,21 @@ public class User {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public int getDpId() {
+        return dpId;
+    }
+
+    public void setDpId(int dpId) {
+        this.dpId = dpId;
+    }
+
+    public int getAuthId() {
+        return authId;
+    }
+
+    public void setAuthId(int authId) {
+        this.authId = authId;
     }
 }

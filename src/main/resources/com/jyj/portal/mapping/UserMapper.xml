@@ -6,7 +6,9 @@
             id,
             name,
             sex,
-            age
+            age,
+            dpid,
+            authid
         FROM
             user
         WHERE
@@ -18,7 +20,9 @@
             id,
             name,
             sex,
-            age
+            age,
+            dpid,
+            authid
         FROM
             user
         ORDER BY
@@ -31,7 +35,9 @@
         SET
             name = #{name},
             sex = #{sex},
-            age = #{age}
+            age = #{age},
+            dpid = #{dpId},
+            authid = #{authId}
         WHERE
             id = #{id}
     </update>

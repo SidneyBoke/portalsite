@@ -13,7 +13,7 @@ Portal Web
  <%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>
  
  #mapping.xml
- idea开发环境下，xml映射文件应该方法resources目录下，否则无法自动打包到发布包中
+ idea开发环境下，xml映射文件应该放在resources目录下，否则无法自动打包到发布包中
  
  #spring AOP or AspectJ
 AspectJ需要额外的aspectjweaver.jar包

@@ -21,7 +21,8 @@ public class UserController {
     public String toIndex(HttpServletRequest request, Model model) {
         int userId = Integer.parseInt(request.getParameter("id"));
         User user = userService.getUserById(userId);
-        model.addAttribute("user", user);model.addAttribute("msg", "testmodel");
+        model.addAttribute("user", user);
+        model.addAttribute("msg", "testmodel");
         return "showUser";
     }
 }
