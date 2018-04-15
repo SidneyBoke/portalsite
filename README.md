@@ -19,4 +19,7 @@ Portal Web
 AspectJ需要额外的aspectjweaver.jar包
 
 #viewResolver
-jsp和freemarker共同使用，参考http://mxdba.iteye.com/blog/658077
+jsp和freemarker共同使用，参考http://mxdba.iteye.com/blog/658077和https://blog.csdn.net/z69183787/article/details/40426603
+
+#messageConverters
+为了文件下载不出现乱码，添加ByteArray转换器，参考：https://blog.csdn.net/kernel_32/article/details/50792139
